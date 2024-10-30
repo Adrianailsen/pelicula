@@ -1,0 +1,29 @@
+.logo{
+    background: url(../img/logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 200px;
+    float: left;
+}
+body{
+    background-color: black;
+    color: beige;
+}
+.menu{
+    position: absolute;
+    right: 50px;
+}
+.menu a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 100;
+    margin-left: 100px;
+    transition: color 1s;
+}
+.menu a:hover{
+    color: blueviolet;
+}
+.titulo1{
+    color:red;
+  }
